@@ -1,0 +1,18 @@
+[package]
+name = "RustTelegramHarvester"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+dotenv = "0.15.0"
+futures-util = "0.3.31"
+grammers-client = "0.7.0"
+grammers-tl-types = "0.7.0"
+lazy_static = "1.5.0"
+log = "0.4.22"
+pretty_env_logger = "0.5.0"
+regex = "1.11.1"
+simple_logger = "5.0.0"
+teloxide = "0.13.0"
+tokio = { version = "1.41.1", features = ["full"] }
